@@ -1,15 +1,13 @@
-# git-standup
-
-[![AppVeyor build status][appveyor-badge]](https://ci.appveyor.com/project/jerriep/git-status-cli/branch/master)
-
-[appveyor-badge]: https://img.shields.io/appveyor/ci/jerriep/git-status-cli/master.svg?label=appveyor&style=flat-square
-
 [![NuGet][main-nuget-badge]][main-nuget] [![MyGet][main-myget-badge]][main-myget]
 
 [main-nuget]: https://www.nuget.org/packages/git-standup-cli/
 [main-nuget-badge]: https://img.shields.io/nuget/v/git-standup-cli.svg?style=flat-square&label=nuget
 [main-myget]: https://www.myget.org/feed/lftkv/package/nuget/git-standup-cli
 [main-myget-badge]: https://img.shields.io/www.myget/lftkv/vpre/git-standup-cli.svg?style=flat-square&label=myget
+
+<a href='https://ko-fi.com/V7V1PWL2' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://az743702.vo.msecnd.net/cdn/kofi5.png?v=0' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
+
+# git-standup
 
 A simple command-line utility to report commits of Git repositories for daily standups
 
