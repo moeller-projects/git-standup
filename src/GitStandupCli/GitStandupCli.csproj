@@ -1,0 +1,33 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <LangVersion>7.1</LangVersion>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <IsPackable>true</IsPackable>
+    <PackAsTool>true</PackAsTool>
+    <ToolCommandName>git-standup</ToolCommandName>
+    <AssemblyName>git-standup-cli</AssemblyName>
+    <PackageId>git-standup-cli</PackageId>
+    <RepositoryUrl>https://github.com/lftkv/git-standup.git</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/lftkv/git-standup</PackageProjectUrl>
+    <PackageReleaseNotes>See https://github.com/lftkv/git-standup/blob/master/CHANGELOG.md#v110 for release notes.</PackageReleaseNotes>
+    <Authors>Lukas Möller</Authors>
+    <Product>git-standup</Product>
+    <Copyright>Copyright © Lukas Möller</Copyright>
+    <RootNamespace>GitStandupCli</RootNamespace>
+    <AssemblyVersion>2.1.1.0</AssemblyVersion>
+    <FileVersion>2.1.0.0</FileVersion>
+    <Version>2.1.0</Version>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Humanizer" Version="2.5.16" />
+    <PackageReference Include="LibGit2Sharp" Version="0.25.4" />
+    <PackageReference Include="McMaster.Extensions.CommandLineUtils" Version="2.3.2" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="2.2.0" />
+    <PackageReference Include="System.IO.Abstractions" Version="3.0.10" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Validators\" />
+  </ItemGroup>
+</Project>
